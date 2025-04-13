@@ -1,0 +1,15 @@
+.main_container_dates_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /*border: 2px solid red;*/
+}
+
+/*.dates {
+    width: 100%;
+}*/
+
+.dates_input_container {
+    width: 100%;
+    max-width: 10rem;
+}
