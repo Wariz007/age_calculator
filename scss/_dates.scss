@@ -2,14 +2,27 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    /*border: 2px solid red;*/
-}
 
-/*.dates {
-    width: 100%;
-}*/
+    .dates {
+        display: flex;
+        flex-direction: column;
+    }
 
-.dates_input_container {
-    width: 100%;
-    max-width: 10rem;
+    .dates_input_container {
+        width: 100%;
+        max-width: 10rem;
+        height: 3.5rem;
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding: 1.5rem;
+        font-size: 1.7rem;
+        color: black;
+        margin-top: 0.5rem;
+        font-weight: bold;
+    }
+    
+    .dates label {
+        font-weight: bold;
+        opacity: 0.5;
+    }
 }
