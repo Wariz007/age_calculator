@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                // Set the JavaScript version output (ES6, ESNext, etc.)
+      "module": "CommonJS",           // Use CommonJS for Node.js projects (change to "ESNext" for frontend)
+      "outDir": "./dist",             // Compiled JavaScript files go into the 'dist' folder
+      "rootDir": "./src",             // TypeScript source files are inside the 'src' folder
+      "strict": true,                 // Enable strict type-checking
+      "noImplicitAny": true,          // Prevent using 'any' type unintentionally
+      "esModuleInterop": true,        // Allow default import from CommonJS modules
+      "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+      "skipLibCheck": true            // Skip checking declaration files for faster compilation
+    },
+    "include": ["src"],               // Only compile files inside 'src'
+    "exclude": ["node_modules", "dist"] // Ignore 'node_modules' and 'dist' folders
+  }  
