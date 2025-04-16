@@ -20,6 +20,8 @@
 
     .arrow_icon {
         background: hsl(259, 100%, 65%);
+        border: 0;
+        cursor: pointer;
         padding: 0.7rem;
         display: inline-block;
         border-radius: 3rem;
@@ -31,6 +33,11 @@
         img {
             width: 2.5rem;
         }
+
     }
+    
 }
 
+.arrow_icon:hover {
+    background: hsl(259, 59%, 58%);
+}
